@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "User Validation";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div class="parent">
+        <div class="block">
+            <div>
+                <span>
+                    <label class="label" for="UserName" id="lUserName">Username :</label>
+                </span>
+                <span>
+                    <input type="text" id="UserName" size="25" />
+                </span>
+            </div>
+            <br>
+            <div>
+                <span>
+                    <label class="label" for="Userpass" id="lUserpass">Password :</label>
+                </span>
+                <span>
+                    <input type="text" class="pass" id="Userpass" size="25" maxlength="6" />
+                </span>
+            </div>
+            <br>
+            <div>
+                <button class="button" id="TryLogIn">Log in</button>
+            </div>
+            <br>
+            <div>
+                <label id="InfoMessage"></label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
